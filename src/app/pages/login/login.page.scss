@@ -1,0 +1,81 @@
+#pPKdCQzxCZHeKWYWF5PW {
+    --background: url('../../../assets/images/Fukey\ Education.png');
+    
+  
+    .login-bg {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+  
+      form {
+        width: 100%;
+      }
+  
+      .card {
+        // background-color: #212121 !important;
+        border-radius: 20px;
+        margin: 0;
+        padding: 20px;
+  
+        @media (max-width: 767px) {
+          height: 98vh;
+          display: flex;
+          align-items: center;
+        }
+      }
+  
+      .title {
+        font-weight: 500 !important;
+        font-size: 1.75rem !important;
+        letter-spacing: 1px;
+      }
+  
+      ion-item {
+        --border-radius: 50px;
+        border-radius: 50px;
+        --background: #f7efef !important;
+        // --color: #f4f5f8 !important;
+        letter-spacing: 1px;
+  
+        ion-label {
+          padding: 2.5px 10px !important;
+        }
+        ion-input {
+          padding: 2.5px 10px !important;
+        }
+      }
+      a.fp {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        float: right;
+        margin-top: 10px;
+        text-decoration: none !important;
+      }
+  
+      .login-button,
+      .back-button {
+        font-weight: 600 !important;
+        width: 100% !important;
+        letter-spacing: 1px;
+      }
+
+      .login-button{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto
+      }
+    }
+  }
+
+  h1{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+
+  .logo{
+    width: 50%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto
+  }

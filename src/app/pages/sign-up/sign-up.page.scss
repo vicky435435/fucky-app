@@ -1,5 +1,5 @@
 #pPKdCQzxCZHeKWYWF5PW {
-    --background: #191919 !important;
+  --background: url('../../../assets/images/Fukey\ Education.png');
     --color: #f4f5f8 !important;
   
     .login-bg {
@@ -12,7 +12,7 @@
       }
   
       .card {
-        background-color: #212121 !important;
+        // background-color: #212121 !important;
         border-radius: 20px;
         margin: 0;
         padding: 20px;
@@ -33,8 +33,8 @@
       ion-item {
         --border-radius: 50px;
         border-radius: 50px;
-        --background: #2e2e2e !important;
-        --color: #f4f5f8 !important;
+        // --background: #2e2e2e !important;
+        // --color: #f4f5f8 !important;
         letter-spacing: 1px;
   
         ion-label {
@@ -58,6 +58,22 @@
         width: 100% !important;
         letter-spacing: 1px;
       }
+    }
+  }
+
+  .logo{
+    width: 50%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto
+  }
+
+  .sign-in-link {
+    text-decoration: none; 
+    font-size: 4vw;  
+    color: black;
+    span{
+      color: blue;
     }
   }
   
