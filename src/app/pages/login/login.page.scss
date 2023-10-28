@@ -62,7 +62,9 @@
       .login-button{
         display: flex;
         margin-right: auto;
-        margin-left: auto
+        margin-left: auto;
+        height: 55px;
+        font-size: 20px;
       }
     }
   }
@@ -86,7 +88,9 @@
     font-weight: 800;
 }
 
-.loginbtn{
-  color: var(--ion-color-blue);
-  
+.sign-up-link{
+  text-decoration: none;
+  font-size: 20px;
+  float: right;
+  margin-left: 20px;
 }
