@@ -74,6 +74,14 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+   /** tertiary **/
+   --ion-color-blue: #2938e4;
+   --ion-color-blue-rgb: 82, 96, 255;
+   --ion-color-blue-contrast: #ffffff;
+   --ion-color-blue-contrast-rgb: 255, 255, 255;
+   --ion-color-blue-shade: #2533d0;
+   --ion-color-blue-tint: #3e4ce2;
 }
 
 @media (prefers-color-scheme: dark) {

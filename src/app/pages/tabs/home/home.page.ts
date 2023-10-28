@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
+navigateToPage(arg0: string) {
+throw new Error('Method not implemented.');
+}
+closeMenu() {
+throw new Error('Method not implemented.');
+}
 
   constructor() { }
 

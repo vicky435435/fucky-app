@@ -1,11 +1,36 @@
 
-<ion-slides pager="true">
-    <ion-slide>
+<ion-slides pager="true" class="slider">
+  <ion-slide>
+    <img class="ion-no-margin logo" src="../../../assets/images/1.png" />
+    <img class="img2" src="../../../assets/images/2.png" />
+
+    <h1 class="ion-no-margin">Welcome to</h1>
+    <h2 class="ion-no-margin">Fukey Education</h2>
+    <div>
+    <p class="ion-no-margin">Hello, thank you for downloading our App!
+      Follow our guide for helping you to using this
+      application.
+      </p>
+  </div>
+
+  <div>
+      <p class="ion-no-margin">
+      If this is not first time, you can skip this guide.
+      But if you wanna following our guide again,
+      then its no problem</p>
+  </div>
+
+  <ion-button class="nextbtn btn-grad" fill="clear" expand="block">Next</ion-button>
+
+  <p class="ion-no-margin skipGuid" [routerLink]="['/login']">Skip This Guide</p>
+  </ion-slide>
+
+  <ion-slide>
       <img class="logo" src="../../../assets/images/1.png" />
       <img src="../../../assets/images/2.png" />
 
-      <h1>Welcome To</h1>
-      <h2>Fukey Education</h2>
+      <h1>Our Provides</h1>
+      <h2>Features</h2>
       <div>
       <p>Hello, thank you for downloading our App!
         Follow our guide for helping you to using this
@@ -19,54 +44,33 @@
         But if you wanna following our guide again,
         then its no problem</p>
     </div>
-    </ion-slide>
-  
-    <ion-slide>
-        <img class="logo" src="../../../assets/images/1.png" />
-        <img src="../../../assets/images/2.png" />
-  
-        <h1>Our Provides</h1>
-        <h2>Features</h2>
-        <div>
-        <p>Hello, thank you for downloading our App!
-          Follow our guide for helping you to using this
-          application.
-          </p>
-      </div>
-  
+  </ion-slide>
+
+  <ion-slide>
+      <img class="logo" src="../../../assets/images/1.png" />
+      <img src="../../../assets/images/2.png" />
+
+      <h1>Thank you</h1>
+      <h2>Come Join us</h2>
       <div>
-          <p>
-          If this is not first time, you can skip this guide.
-          But if you wanna following our guide again,
-          then its no problem</p>
-      </div>
-    </ion-slide>
-  
-    <ion-slide>
-        <img class="logo" src="../../../assets/images/1.png" />
-        <img src="../../../assets/images/2.png" />
-  
-        <h1>Thank you</h1>
-        <h2>Come Join us</h2>
-        <div>
-        <p>Hello, thank you for downloading our App!
-          Follow our guide for helping you to using this
-          application.
-          </p>
-      </div>
-  
-      <div>
-          <p>
-          If this is not first time, you can skip this guide.
-          But if you wanna following our guide again,
-          then its no problem</p>
-      </div>
+      <p>Hello, thank you for downloading our App!
+        Follow our guide for helping you to using this
+        application.
+        </p>
+    </div>
+
+    <div>
+        <p>
+        If this is not first time, you can skip this guide.
+        But if you wanna following our guide again,
+        then its no problem</p>
+    </div>
 
 
-      <ion-button  expand="block" fill="solid"  color="primary">
-        Follow
-     </ion-button>
- 
-    </ion-slide>
-  
-  </ion-slides>
+    <ion-button  expand="block" fill="solid">
+      Follow
+   </ion-button>
+
+  </ion-slide>
+
+</ion-slides>
