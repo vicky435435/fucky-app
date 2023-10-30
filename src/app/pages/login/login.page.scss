@@ -24,11 +24,11 @@
         }
       }
   
-      .title {
-        font-weight: 500 !important;
-        font-size: 1.75rem !important;
-        letter-spacing: 1px;
-      }
+      // .title {
+      //   font-weight: 500 !important;
+      //   font-size: 1.75rem !important;
+      //   letter-spacing: 1px;
+      // }
   
       ion-item {
         --border-radius: 50px;
@@ -93,4 +93,23 @@
   font-size: 20px;
   float: right;
   margin-left: 20px;
+}
+
+
+.right {
+  font-size: 20px;
+    float: right;
+    /* margin-left: 0px; */
+    color: black;
+    padding: 4px 8px;
+    border-radius: 14px;
+    font-weight: 700;
+}
+
+.left{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  // text-align: justify;
+  font-size: 20px;
+  font-weight: 700;
 }

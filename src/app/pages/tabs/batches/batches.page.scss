@@ -27,3 +27,70 @@
   .logon{
     font-size: 25px;
   }
+
+  
+
+.newsattachment{
+  float: left;
+  border-radius: 7px;
+  background-color: #FFC421;
+  font-size: 8px;
+  font-weight: 400px;
+  color: #000000;
+  padding: 1px 9px 1px 9px;
+}
+
+.langdef,.langcli{
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 100%;
+  padding: 15px 0px;
+  font-weight: 400;
+}
+
+.langdef{
+  color: #92949c;
+  // background-color:  #92949c;
+}
+
+.langcli{
+color: #60d158;
+  // border-bottom: 2px solid #60d158 ;
+}
+
+.texthighlight{
+  background-color: rgb(255, 255, 118);
+}
+
+
+.imgCard{
+  width: 130px;
+  border-radius: 8px;
+  padding-bottom: inherit;
+}
+
+
+
+.batchname{
+
+  font-size: 20px;
+  margin-left: 16px;
+  font-weight: 700;
+}
+
+.batchnames{
+  font-weight: 700;
+  font-size: 19px;
+  color: #000000;
+}
+
+ion-icon{
+   margin-right: 10px;
+  font-size: 25px;
+}
+
+.newsmore{
+  float: right;
+  margin-left: 450px;
+  font-size: 30px;
+}

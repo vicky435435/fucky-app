@@ -18,6 +18,17 @@ export class HomePage implements OnInit {
 
   // }];
 
+  slideOpts = {
+    speed: 400,
+     // initialSlide: 0,
+     // slidesPerView:1,
+    autoplay: true,
+    loop: true,
+    // autoplay: {
+    //   delay: 4000
+    // }
+  };
+
   constructor(
     private menuController: MenuController,
     private router: Router

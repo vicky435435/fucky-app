@@ -1,8 +1,9 @@
 <ion-header id="a6LIZt6rrENcnsHfGJNK">
-  <ion-toolbar color="primary">
+  <ion-toolbar color="secondary">
      <ion-buttons slot="start">
         <ion-button color="primary">
-           <ion-icon name="menu" color="light"></ion-icon>
+           <!-- <ion-icon name="menu" color="light"></ion-icon> -->
+           <ion-menu-button menu="main-menu" color="light"></ion-menu-button>
         </ion-button>
      </ion-buttons>
      <ion-label color="light">
@@ -16,6 +17,78 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content>
+   <br>
+    <span class="batchname">Enrolled Batches</span>
+   <ion-card class="newscard">
+      <ion-card-content class="newscontent">
+        <ion-row>
+          <ion-col>      
+              <img class="imgCard" src="../../../../assets/images/girlalap.jpg">  
+          </ion-col>
+          <ion-col size="9">
+            <span class="newsdata"><span class="batchnames">Class 9th Mathematics</span><span>...</span>
+            <br>
+          <span><span>Last Activity: 20 Sep 2023, 4:00 PM</span></span></span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <!-- <a class="newsmore" >Read More</a> -->
+            <ion-icon color="secondary" class="newsmore" name="exit"></ion-icon>
+            <!-- <a class="newsmore" >Read Less</a> -->
+          </ion-col>
+        </ion-row>
+  
+      </ion-card-content>
+  
+    </ion-card>
+
+    <ion-card class="newscard">
+      <ion-card-content class="newscontent">
+        <ion-row>
+          <ion-col>      
+              <img class="imgCard" src="../../../../assets/images/138735765-smiling-african-male-student-professional-wear-headset-elearning-study-with-online-tutor-teacher.jpg">  
+          </ion-col>
+          <ion-col size="9">
+            <span class="newsdata"><span class="batchnames">Class 9th Science
+            </span><span>...</span>
+            <br>
+          <span><span>No Recent Activity </span></span></span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-icon color="secondary" class="newsmore" name="exit"></ion-icon>
+          
+          </ion-col>
+        </ion-row>
+  
+      </ion-card-content>
+  
+    </ion-card>
+
+
+    <ion-card class="newscard">
+      <ion-card-content class="newscontent">
+        <ion-row>
+          <ion-col>      
+              <img class="imgCard" src="../../../../assets/images/online-learning-180604.jpg">  
+          </ion-col>
+          <ion-col size="9">
+            <span class="newsdata"><span class="batchnames">Class 9th Social Sciences</span><span>...</span>
+            <br>
+          <span><span>Last Activity: 22 Sep 2023, 4:00 PM</span></span></span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col> 
+            <ion-icon color="secondary" class="newsmore" name="exit"></ion-icon>
+          </ion-col>
+        </ion-row>
+  
+      </ion-card-content>
+  
+    </ion-card>
  
 </ion-content>

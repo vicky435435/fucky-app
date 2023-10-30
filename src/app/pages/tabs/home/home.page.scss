@@ -38,5 +38,61 @@
   
   }
 
+  .header-contend{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 3px solid #0936b3;
+        margin-right: 14px;
+    }
+
+   h2{
+    font-weight: 600;
+    color: black;
+    font-size: 17px;
+    // margin-left: 7px;
+   }
+
+   p{
+    font-size: 17px;
+    color: #120c0c;
+    font-weight: 100;
+    // margin-left: 7px;
+   }
+
+}
+
+
+ion-card {
+  background: transparent;
+}
+
+.banner{
+img{
+ margin-top: 100px;
+  /* width: 100% !important; */
+  width: 90%;
+  height: 43%;
+  border-radius: 22px;
+  margin-left: 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 
   

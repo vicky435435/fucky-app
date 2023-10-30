@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./store.page.scss'],
 })
 export class StorePage implements OnInit {
-
-  constructor() { }
+  
+  segment: string;
+  constructor() {
+    this.segment = "1";
+   }
 
   ngOnInit() {
   }
