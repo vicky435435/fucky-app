@@ -61,16 +61,27 @@
         --indicator-box-shadow: none !important;
       }
     }
-    ion-card {
-      border-radius: 0px !important;
-      border-bottom-left-radius: 8px !important;
-      border-bottom-right-radius: 8px !important;
-      --background: #ffffff !important;
-      background: #ffffff !important;
-      box-shadow: none;
-    }
+    // ion-card {
+    //   border-radius: 0px !important;
+    //   border-bottom-left-radius: 8px !important;
+    //   border-bottom-right-radius: 8px !important;
+    //   --background: #ffffff !important;
+    //   background: #ffffff !important;
+    //   box-shadow: none;
+    // }
   }
   
+
+  .classes{
+    // display: flex;
+    img{
+      border-radius: 10px;
+    }
+
+    ion-icon{
+      font-size: 15px;
+    }
+  }
 
 
   
