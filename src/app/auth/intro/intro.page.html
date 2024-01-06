@@ -75,5 +75,5 @@
     <ion-button *ngIf="activeIndex != 2" class="nextbtn btn-grad" fill="clear" expand="block">Next</ion-button>
     <p *ngIf="activeIndex != 2" class="ion-no-margin skipGuid" (click)="skipTheGuide()">Skip This Guide</p>
 
-    <ion-button *ngIf="activeIndex == 2" class="nextbtn btn-grad btn-start"  expand="block" fill="solid">Get Started</ion-button>
+    <ion-button *ngIf="activeIndex == 2" class="nextbtn btn-grad btn-start"  expand="block" fill="solid" (click)="getStarted()">Get Started</ion-button>
 </ion-container>

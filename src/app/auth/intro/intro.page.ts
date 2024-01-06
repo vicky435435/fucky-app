@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-intro',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class IntroPage implements OnInit {
   activeIndex: any;
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
@@ -23,6 +24,10 @@ export class IntroPage implements OnInit {
 
   skipTheGuide(){
     this.activeIndex = 2;
+  }
+
+  getStarted(){
+    this.router.navigate(['/login']);
   }
 
 }

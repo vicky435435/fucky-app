@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoginPage } from 'src/app/pages/login/login.page';
-import { SignUpPage } from 'src/app/pages/sign-up/sign-up.page';
+import { SignUpPage } from 'src/app/auth/sign-up/sign-up.page';
 
 
 
