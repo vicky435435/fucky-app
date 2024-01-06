@@ -1,0 +1,79 @@
+<ion-container>
+  <img class="ion-no-margin logo" src="../../../assets/images/1.png" />
+  <swiper-container (swiperslidechange)="onSlideChange($event)" [pagination]="true">
+    <!-- Slide 1 -->
+    <swiper-slide>
+      <img class="img2" src="../../../assets/images/2.png" />
+
+      <h1 class="ion-no-margin">Welcome to</h1>
+      <h2 class="ion-no-margin">Fukey Education</h2>
+      <div>
+        <p class="ion-no-margin">Hello, thank you for downloading our App!
+          Follow our guide for helping you to using this
+          application.
+        </p>
+      </div>
+
+      <div>
+        <p class="ion-no-margin">
+          If this is not first time, you can skip this guide.
+          But if you wanna following our guide again,
+          then its no problem
+        </p>
+      </div>
+
+    </swiper-slide>
+
+
+    <!-- Slide 2 -->
+    <swiper-slide>
+      <img class="img2" src="../../../assets/images/3.png" />
+
+      <h1 class="ion-no-margin">Our Provides</h1>
+      <h2 class="ion-no-margin">Features</h2>
+      <div>
+        <p class="ion-no-margin">
+          Hello, thank you for downloading our App!
+          Follow our guide for helping you to using this
+          application.
+        </p>
+      </div>
+
+      <div>
+        <p class="ion-no-margin">
+          If this is not first time, you can skip this guide.
+          But if you wanna following our guide again,
+          then its no problem</p>
+      </div>
+    </swiper-slide>
+
+    <!-- Slide 3 -->
+    <swiper-slide>
+      <img class="img2" src="../../../assets/images/4.png" />
+
+      <h1 class="ion-no-margin">Thank you</h1>
+      <h2 class="ion-no-margin">Come Join us</h2>
+      <div>
+        <p class="ion-no-margin">
+          Hello, thank you for downloading our App!
+          Follow our guide for helping you to using this
+          application.
+        </p>
+      </div>
+
+      <div>
+        <p class="ion-no-margin">
+          If this is not first time, you can skip this guide.
+          But if you wanna following our guide again,
+          then its no problem
+        </p>
+      </div>
+    </swiper-slide>
+
+  </swiper-container>
+
+    <ion-button *ngIf="activeIndex != 2" class="nextbtn btn-grad" fill="clear" expand="block">Next</ion-button>
+    <p *ngIf="activeIndex != 2" class="ion-no-margin skipGuid" (click)="skipTheGuide()">Skip This Guide</p>
+
+    <ion-button *ngIf="activeIndex == 2" class="nextbtn btn-grad btn-start"  expand="block" fill="solid">Get Started</ion-button>
+</ion-container>
